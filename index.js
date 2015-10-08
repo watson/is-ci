@@ -3,5 +3,6 @@
 module.exports = !!(
   process.env.CI ||
   process.env.CONTINUOUS_INTEGRATION ||
-  process.env.JENKINS_URL
+  process.env.JENKINS_URL ||
+  process.env.bamboo_planKey
 )
