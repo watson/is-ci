@@ -6,5 +6,6 @@ module.exports = !!(
   process.env.JENKINS_URL ||
   process.env.bamboo_planKey ||
   process.env.TF_BUILD ||
-  process.env.TEAMCITY_VERSION
+  process.env.TEAMCITY_VERSION ||
+  process.env.BUILDKITE
 )
