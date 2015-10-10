@@ -10,5 +10,6 @@ module.exports = !!(
   process.env.bamboo_planKey ||          // Bamboo (by Atlassian)
   process.env.TF_BUILD ||                // Team Foundation Server (by Microsoft)
   process.env.TEAMCITY_VERSION ||        // TeamCity (by JetBrains)
-  process.env.BUILDKITE                  // Buildkite
+  process.env.BUILDKITE ||               // Buildkite
+  false
 )
