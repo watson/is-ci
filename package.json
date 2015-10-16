@@ -1,6 +1,6 @@
 {
   "name": "is-ci",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Detect if your code is running on a CI server",
   "main": "index.js",
   "dependencies": {},
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/watson/is-ci",
   "coordinates": [
-    55.6665508,
-    12.5800325
+    55.6665983,
+    12.5798458
   ]
 }
