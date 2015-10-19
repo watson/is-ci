@@ -26,21 +26,21 @@ if (isCI) {
 ```
 ## Supported CI tools
 
-Currently detects :
+Currently detects:
 
-TravisCI
-Appveyor
-Bamboo
-Buildkite
-CircleCI
-CodeShip
-GitlabCI
-Hudson
-Jenkins
-Magnum CI
-Semaphore CI
-Snip CI
-TeamCity
+- TravisCI
+- Appveyor
+- Bamboo
+- Buildkite
+- CircleCI
+- CodeShip
+- GitlabCI
+- Hudson
+- Jenkins
+- Magnum CI
+- Semaphore CI
+- Snip CI
+- TeamCity
 
 Other CI tools using environment variables like 'BUILD_ID' or 'CI' would be detected as well.
 
