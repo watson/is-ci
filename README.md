@@ -24,6 +24,25 @@ if (isCI) {
   console.log('The code is running on a CI server')
 }
 ```
+## Supported CI tools
+
+Currently detects:
+
+- TravisCI
+- Appveyor
+- Bamboo
+- Buildkite
+- CircleCI
+- CodeShip
+- GitlabCI
+- Hudson
+- Jenkins
+- Magnum CI
+- Semaphore CI
+- Snip CI
+- TeamCity
+
+Other CI tools using environment variables like 'BUILD_ID' or 'CI' would be detected as well.
 
 ## License
 
