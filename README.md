@@ -24,25 +24,29 @@ if (isCI) {
   console.log('The code is running on a CI server')
 }
 ```
+
 ## Supported CI tools
 
-Currently detects:
+Officially supported CI servers:
 
-- TravisCI
-- Appveyor
-- Bamboo
-- Buildkite
-- CircleCI
-- CodeShip
-- GitlabCI
-- Hudson
-- Jenkins
-- Magnum CI
-- Semaphore CI
-- Snip CI
-- TeamCity
+- [Travis CI](http://travis-ci.org)
+- [CircleCI](http://circleci.com)
+- [Jenkins CI](https://jenkins-ci.org)
+- [Hudson](http://hudson-ci.org)
+- [Bamboo](https://www.atlassian.com/software/bamboo)
+- [TeamCity](https://www.jetbrains.com/teamcity/)
+- [Team Foundation Server](https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx)
+- [Visual Studio Online CI](https://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs.aspx)
+- [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+- [Codeship](https://codeship.com)
+- [Drone.io](https://drone.io)
+- [Magnum CI](https://magnum-ci.com)
+- [Semaphore CI](https://semaphoreci.com)
+- [AppVeyor](http://www.appveyor.com)
+- [Buildkite](https://buildkite.com)
+- [TaskCluster](http://docs.taskcluster.net)
 
-Other CI tools using environment variables like 'BUILD_ID' or 'CI' would be detected as well.
+Other CI tools using environment variables like `BUILD_ID` or `CI` would be detected as well.
 
 ## License
 
