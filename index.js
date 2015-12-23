@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports =[
+module.exports = !![
   // Generic environment variables
   'CI',                                         // Travis CI, CircleCI, GitlabCI, Appveyor, CodeShip, ...
   'CONTINUOUS_INTEGRATION',                     // Travis CI, ...
