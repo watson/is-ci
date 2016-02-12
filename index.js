@@ -14,5 +14,6 @@ module.exports = !!(
   process.env.BUILDKITE ||                       // Buildkite
   process.env.HUDSON_URL ||                      // Hudson
   (process.env.TASK_ID && process.env.RUN_ID) || // TaskCluster
+  process.env.GO_PIPELINE_LABEL ||               // GoCD
   false
 )
