@@ -45,6 +45,7 @@ Officially supported CI servers:
 - [AppVeyor](http://www.appveyor.com)
 - [Buildkite](https://buildkite.com)
 - [TaskCluster](http://docs.taskcluster.net)
+- [GoCD](https://www.go.cd/)
 
 Other CI tools using environment variables like `BUILD_ID` or `CI` would be detected as well.
 
