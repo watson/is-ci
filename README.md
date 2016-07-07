@@ -46,6 +46,7 @@ Officially supported CI servers:
 - [Buildkite](https://buildkite.com)
 - [TaskCluster](http://docs.taskcluster.net)
 - [GoCD](https://www.go.cd/)
+- [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines)
 
 Other CI tools using environment variables like `BUILD_ID` or `CI` would be detected as well.
 
