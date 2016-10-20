@@ -12,5 +12,6 @@ delete process.env.CI
 delete process.env.CONTINUOUS_INTEGRATION
 
 clearRequire('./')
+clearRequire('ci-info')
 isCI = require('./')
 assert(!isCI)
