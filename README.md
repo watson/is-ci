@@ -36,7 +36,6 @@ Officially supported CI servers:
 - [Bamboo](https://www.atlassian.com/software/bamboo)
 - [TeamCity](https://www.jetbrains.com/teamcity/)
 - [Team Foundation Server](https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx)
-- [Visual Studio Online CI](https://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs.aspx)
 - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
 - [Codeship](https://codeship.com)
 - [Drone.io](https://drone.io)
