@@ -12,7 +12,7 @@ CI server isn't properly detected :)
 ## Installation
 
 ```
-npm install is-ci
+npm install is-ci --save
 ```
 
 ## Usage
