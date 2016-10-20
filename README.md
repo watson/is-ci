@@ -40,7 +40,7 @@ Officially supported CI servers:
 - [Codeship](https://codeship.com)
 - [Drone.io](https://drone.io)
 - [Magnum CI](https://magnum-ci.com)
-- [Semaphore CI](https://semaphoreci.com)
+- [Semaphore](https://semaphoreci.com)
 - [AppVeyor](http://www.appveyor.com)
 - [Buildkite](https://buildkite.com)
 - [TaskCluster](http://docs.taskcluster.net)
