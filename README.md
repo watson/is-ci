@@ -18,7 +18,7 @@ npm install is-ci --save
 ## Usage
 
 ```js
-var isCI = require('is-ci')
+const isCI = require('is-ci')
 
 if (isCI) {
   console.log('The code is running on a CI server')
