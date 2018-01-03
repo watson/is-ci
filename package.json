@@ -2,6 +2,7 @@
   "name": "is-ci",
   "version": "1.0.10",
   "description": "Detect if your code is running on a CI server",
+  "bin": "bin.js",
   "main": "index.js",
   "dependencies": {
     "ci-info": "^1.0.0"
