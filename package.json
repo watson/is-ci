@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "clear-require": "^1.0.1",
-    "standard": "^10.0.3"
+    "standard": "^11.0.1"
   },
   "scripts": {
     "test": "standard && node test.js"
