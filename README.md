@@ -44,23 +44,26 @@ is-ci && echo "This is a CI server"
 
 Officially supported CI servers:
 
-- [Travis CI](http://travis-ci.org)
+- [AWS CodeBuild](https://aws.amazon.com/codebuild/)
+- [AppVeyor](http://www.appveyor.com)
+- [Bamboo](https://www.atlassian.com/software/bamboo) by Atlassian
+- [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines)
+- [Buildkite](https://buildkite.com)
 - [CircleCI](http://circleci.com)
-- [Jenkins CI](https://jenkins-ci.org)
-- [Hudson](http://hudson-ci.org)
-- [Bamboo](https://www.atlassian.com/software/bamboo)
-- [TeamCity](https://www.jetbrains.com/teamcity/)
-- [Team Foundation Server](https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx)
-- [GitLab CI](https://about.gitlab.com/gitlab-ci/)
 - [Codeship](https://codeship.com)
-- [Drone.io](https://drone.io)
+- [Drone](https://drone.io)
+- [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+- [GoCD](https://www.go.cd/)
+- [Hudson](http://hudson-ci.org)
+- [Jenkins CI](https://jenkins-ci.org)
 - [Magnum CI](https://magnum-ci.com)
 - [Semaphore](https://semaphoreci.com)
-- [AppVeyor](http://www.appveyor.com)
-- [Buildkite](https://buildkite.com)
+- [Solano CI](https://www.solanolabs.com/)
+- [Strider CD](https://strider-cd.github.io/)
 - [TaskCluster](http://docs.taskcluster.net)
-- [GoCD](https://www.go.cd/)
-- [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines)
+- [Team Foundation Server](https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx) by Microsoft
+- [TeamCity](https://www.jetbrains.com/teamcity/) by JetBrains
+- [Travis CI](http://travis-ci.org)
 
 Other CI tools using environment variables like `BUILD_ID` or `CI` would be detected as well.
 
