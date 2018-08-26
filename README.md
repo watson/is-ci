@@ -43,7 +43,7 @@ is-ci && echo "This is a CI server"
 
 ## Supported CI tools
 
-Refer [ci-info](https://github.com/watson/ci-info#supported-ci-tools) docs for all supported CI's
+Refer to [ci-info](https://github.com/watson/ci-info#supported-ci-tools) docs for all supported CI's
 
 ## License
 
