@@ -12,7 +12,7 @@ CI server isn't properly detected :)
 
 ## Installation
 
-```
+```bash
 npm install is-ci --save
 ```
 
@@ -37,37 +37,13 @@ There's a few ways to do that:
 - Or provide the full path to the executable, e.g.
   `./node_modules/.bin/is-ci`
 
-```
+```bash
 is-ci && echo "This is a CI server"
 ```
 
 ## Supported CI tools
 
-Officially supported CI servers:
-
-- [AWS CodeBuild](https://aws.amazon.com/codebuild/)
-- [AppVeyor](http://www.appveyor.com)
-- [Bamboo](https://www.atlassian.com/software/bamboo) by Atlassian
-- [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines)
-- [Buildkite](https://buildkite.com)
-- [CircleCI](http://circleci.com)
-- [Codeship](https://codeship.com)
-- [Drone](https://drone.io)
-- [GitLab CI](https://about.gitlab.com/gitlab-ci/)
-- [GoCD](https://www.go.cd/)
-- [Hudson](http://hudson-ci.org)
-- [Jenkins CI](https://jenkins-ci.org)
-- [Magnum CI](https://magnum-ci.com)
-- [Semaphore](https://semaphoreci.com)
-- [Solano CI](https://www.solanolabs.com/)
-- [Strider CD](https://strider-cd.github.io/)
-- [TaskCluster](http://docs.taskcluster.net)
-- [Team Foundation Server](https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx) by Microsoft
-- [TeamCity](https://www.jetbrains.com/teamcity/) by JetBrains
-- [Travis CI](http://travis-ci.org)
-
-Other CI tools using environment variables like `BUILD_ID` or `CI` would
-be detected as well.
+Refer to [ci-info](https://github.com/watson/ci-info#supported-ci-tools) docs for all supported CI's
 
 ## License
 
