@@ -5,7 +5,7 @@
   "bin": "bin.js",
   "main": "index.js",
   "dependencies": {
-    "ci-info": "^1.*"
+    "ci-info": "^1.3.0"
   },
   "devDependencies": {
     "clear-require": "^1.0.1",
