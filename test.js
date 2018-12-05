@@ -1,7 +1,7 @@
 'use strict'
 
 var assert = require('assert')
-var clearRequire = require('clear-require')
+var clearModule = require('clear-module')
 
 process.env.CI = 'true'
 
@@ -13,7 +13,7 @@ delete process.env.CONTINUOUS_INTEGRATION
 delete process.env.BUILD_NUMBER
 delete process.env.TRAVIS
 
-clearRequire('./')
-clearRequire('ci-info')
+clearModule('./')
+clearModule('ci-info')
 isCI = require('./')
 assert(!isCI)
