@@ -1,7 +1,3 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/node,yarn,macos,windows,linux,sass,grunt,bower
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,yarn,macos,windows,linux,sass,grunt,bower
-
 ### Bower ###
 bower_components
 .bower-cache
@@ -220,4 +216,5 @@ $RECYCLE.BIN/
 # and uncomment the following lines
 # .pnp.*
 
-# End of https://www.toptal.com/developers/gitignore/api/node,yarn,macos,windows,linux,sass,grunt,bower
+package-lock.json
+yarn.lock
