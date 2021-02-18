@@ -1,10 +1,16 @@
 # Changelog
 
+## v3.0.0
+
+Breaking changes:
+
+- update to `ci-info` v3. This drops support for EOL node versions 6, 13
+
 ## v2.0.0
 
 Breaking changes:
 
-* Drop support for Node.js end-of-life versions: 0.10, 0.12, 4, 5, 7,
+- Drop support for Node.js end-of-life versions: 0.10, 0.12, 4, 5, 7,
   and 9
 
 Other changes:
