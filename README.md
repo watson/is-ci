@@ -7,7 +7,7 @@ Please [open an issue](https://github.com/watson/is-ci/issues) if your
 CI server isn't properly detected :)
 
 [![npm](https://img.shields.io/npm/v/is-ci.svg)](https://www.npmjs.com/package/is-ci)
-[![Build status](https://travis-ci.org/watson/is-ci.svg?branch=master)](https://travis-ci.org/watson/is-ci)
+[![Tests](https://github.com/watson/is-ci/workflows/Tests/badge.svg)](https://github.com/watson/is-ci/actions)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 ## Installation
