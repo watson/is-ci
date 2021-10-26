@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.0.1
+
+- remove `.github` folder from published files ([dd15229](https://github.com/watson/is-ci/commit/dd15229))
+
 ## v3.0.0
 
 Breaking changes:
