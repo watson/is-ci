@@ -29,10 +29,10 @@
     "test": "standard && node test.js"
   },
   "dependencies": {
-    "ci-info": "^3.2.0"
+    "ci-info": "^4.1.0"
   },
   "devDependencies": {
-    "clear-module": "^4.1.1",
-    "standard": "^16.0.4"
+    "clear-module": "^4.1.2",
+    "standard": "^17.1.2"
   }
 }
