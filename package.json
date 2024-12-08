@@ -3,7 +3,9 @@
   "version": "4.0.0",
   "description": "Detect if the current environment is a CI server",
   "bin": "bin.js",
+  "type": "commonjs",
   "main": "index.js",
+  "types": "index.d.ts",
   "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
   "license": "MIT",
   "repository": {
