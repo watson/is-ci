@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.1.0
+
+- update to `ci-info` v4 ([658c179](https://github.com/watson/is-ci/commit/658c179))
+
 ## v3.0.1
 
 - remove `.github` folder from published files ([dd15229](https://github.com/watson/is-ci/commit/dd15229))

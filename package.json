@@ -1,6 +1,6 @@
 {
   "name": "is-ci",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "Detect if the current environment is a CI server",
   "bin": "bin.js",
   "main": "index.js",
@@ -8,12 +8,28 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/watson/is-ci.git"
+    "url": "git+https://github.com/watson/is-ci.git"
   },
   "bugs": {
     "url": "https://github.com/watson/is-ci/issues"
   },
   "homepage": "https://github.com/watson/is-ci",
+  "contributors": [
+    {
+      "name": "Thomas Watson",
+      "url": "https://github.com/watson"
+    },
+    {
+      "name": "Sibiraj",
+      "url": "https://github.com/sibiraj-s"
+    }
+  ],
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/sibiraj-s"
+    }
+  ],
   "keywords": [
     "ci",
     "continuous",
