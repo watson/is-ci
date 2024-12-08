@@ -2,6 +2,10 @@
 
 ## v4.1.0
 
+- add `types` ([116335d](https://github.com/watson/is-ci/commit/116335d))
+
+## v4.0.0
+
 - update to `ci-info` v4 ([658c179](https://github.com/watson/is-ci/commit/658c179))
 
 ## v3.0.1
